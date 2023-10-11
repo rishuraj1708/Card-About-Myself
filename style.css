@@ -1,8 +1,17 @@
+*{
+    margin: auto;
+    background: linear-gradient(
+    90deg,
+    rgba(198, 74, 210, 1) 11%,
+    rgba(222, 53, 53, 1) 61%,
+    rgba(218, 150, 24, 1) 100%
+  );
+}
 .card{
-    background-color: transparent;
     width: 300px;
     height: 300px;
     perspective: 1000px;
+    margin: auto;
 }
 .inner-card{
     position: relative;
